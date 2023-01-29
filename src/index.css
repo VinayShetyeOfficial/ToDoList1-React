@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Josefin+Sans:ital,wght@0,400;0,500;0,600;1,300&family=Secular+One&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.main_div {
+  width: 100%;
+  height: 100vh;
+  background: #6983aa;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.center_div {
+  width: 25%;
+  height: 80vh;
+  background-color: #f4f4f4;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+.center_div .message {
+  display: block;
+  font-size: 16px;
+  margin-top: 7px;
+  width: 60%;
+  margin-left: 14.5%;
+  min-height: 22px;
+  color: rgb(215, 22, 22);
+}
+
+h1 {
+  position: relative;
+  color: white;
+  background-color: transparent;
+  background-color: #8566aa;
+  padding: 6px 0 2px 0;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+input {
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+  border-bottom: 2px solid #856aaa;
+  outline: none;
+}
+
+button {
+  min-height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #856aaa;
+  color: #fff;
+  font-size: 40px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #20bf6b;
+}
+
+ol {
+  margin-top: 20px;
+  width: 98%;
+  height: 65%;
+  overflow: hidden scroll;
+}
+
+ol li {
+  padding-left: 0px;
+  text-align: left;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  word-break: break-all;
+  align-items: center;
+  color: #8566aa;
+  text-transform: capitalize;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  .todo_style {
+    scrollbar-width: auto;
+    scrollbar-color: #8f54a0 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  .todo_style::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  .todo_style::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .todo_style::-webkit-scrollbar-thumb {
+    background-color: #8f54a0;
+    border-radius: 10px;
+  }
+
+.todo_style .fa-times {
+  min-width: 20px;
+  min-height: 20px;
+  display: flex;
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: #8566aa;
+  border-radius: 50%;
+  margin: 0 15px 0 35px;
+  color: aliceblue;
+}
+
+.todo_style .fa-edit {
+  width: 20px;
+  height: 20px;
+  font-weight: 500;
+  margin-left: auto;
+  padding-left: 10px;
+  margin-right: 8%;
+}
+
+.todo_style .fa-edit:hover {
+  cursor: pointer;
+  color: #20bf6b;
+}
+
+.todo_style .fa-edit.active {
+  color: #004cff;
+}
+
+.todo_style .fa-times:hover {
+  cursor: pointer;
+  background-color: crimson;
+}
+
+.todo_style .fa-times:hover .list_style {
+  color: crimson;
+}
+
+.todo_style .listStatus {
+  margin-left: 70px;
+}
+
+@media (max-width: 768px) {
+  .center_div {
+    width: 55%;
+  }
+
+  .todo_Style .fa_times {
+    margin: 0 15px 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button {
+    margin-left: 5px;
+    min-height: 40px;
+    width: 40px;
+    color: #fff;
+    font-size: 30px;
+  }
+
+  ol {
+    height: 65%;
+    overflow-y: scroll;
+  }
+
+}
