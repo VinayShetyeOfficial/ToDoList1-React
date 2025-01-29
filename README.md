@@ -1,5 +1,5 @@
 # React ToDo App
-![React-ToDo-App](https://github.com/VinayShetyeOfficial/React-Todo-App/assets/100470361/c5df3bd4-9673-40d3-b41b-c7df327b60f1)
+![image](https://github.com/user-attachments/assets/29c2aeb3-0d0d-4dc8-81af-ad600a0e1eea)
 
 ### Links
 
