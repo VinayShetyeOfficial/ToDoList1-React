@@ -3,7 +3,7 @@
 
 ### Links
 
-Live Site URL: [Preview](https://main--precious-custard-731186.netlify.app/)
+Live Site URL: [Preview](https://todo-app-live1.netlify.app/)
 
 ## Description
 A simple and intuitive ToDo List app built with React. Helps in organizing your daily tasks efficiently.
