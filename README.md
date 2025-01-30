@@ -1,9 +1,5 @@
-# React ToDo App
+# React ToDo App [[Live Preview](https://todo-app-live1.netlify.app/)]
 ![image](https://github.com/user-attachments/assets/29c2aeb3-0d0d-4dc8-81af-ad600a0e1eea)
-
-### Links
-
-Live Site URL: [Preview](https://todo-app-live1.netlify.app/)
 
 ## Description
 A simple and intuitive ToDo List app built with React. Helps in organizing your daily tasks efficiently.
